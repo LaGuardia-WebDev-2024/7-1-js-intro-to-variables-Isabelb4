@@ -15,12 +15,18 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Unit Goes Here
   
+var eyeSize;
+eyeSize=20;
+
+fill(255, 209, 220)
   ellipse(150, 70, 60, 120);  // left ear
+fill(255, 209, 220)
   ellipse(240, 70, 60, 120);  // right ear
 
+fill(255, 209, 220)
   ellipse(200, 170, 150, 150);    // face
 
-  fill(0, 0, 0);
+  fill(100, 50, 90);
   ellipse(170, 150, eyeSize, eyeSize);  // left eye
   ellipse(230, 150, eyeSize, eyeSize);  // right eye
 
